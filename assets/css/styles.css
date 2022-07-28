@@ -90,7 +90,10 @@ a {
   background-color: var(--white-color);
 }
 /*=============== NAV ===============*/
-
+@media screen and (max-width: 968px) {
+  .nav__menu {
+  }
+}
 /*=============== MEDIA QUERIES ===============*/
 /* For small devices */
 /* Remove if you choose, the minimalist design */
