@@ -81,8 +81,8 @@ a {
 
 /*=============== HEADER ===============*/
 .header {
-  width: 100%;
-  position: fixed;
+  /* width: 100%;
+  position: fixed; */
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
@@ -194,9 +194,27 @@ a {
 .sneaker__colors-two {
   background-color: var(--black-color);
 }
+
+/* ====DATA====== */
+.data {
+  margin-bottom: 1.5rem;
+}
+
+.data__subtitle {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+}
+
+.data__title {
+  font-size: var(--biggest-font-size);
+  margin-bottom: 0.5rem;
+}
+
+.data__description {
+  font-size: var(--normal-font-size);
+}
 /*=============== MEDIA QUERIES ===============*/
 /* For small devices */
-/* Remove if you choose, the minimalist design */
 
 /* For medium devices */
 
