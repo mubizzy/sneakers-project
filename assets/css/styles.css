@@ -6,7 +6,6 @@
   --header-height: 3rem;
 
   /*========== Colors ==========*/
-
   --first-color: #a29596;
   --primary: #a29596;
   --second-color: #33303d;
@@ -102,7 +101,30 @@ a {
     z-index: var(--z-fixed);
     transition: 0.3s;
   }
+
+  .nav__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+  }
 }
+
+.nav__item {
+  font-weight: var(--font-bold);
+}
+
+.nav__link {
+  color: var(--black-color);
+}
+
+.nav__toggle {
+  cursor: pointer;
+}
+
+.show-menu {
+  left: 0;
+}
+
 /*=============== MEDIA QUERIES ===============*/
 /* For small devices */
 /* Remove if you choose, the minimalist design */
