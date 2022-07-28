@@ -181,6 +181,11 @@ a {
   margin-bottom: 0.5rem;
   cursor: pointer;
 }
+
+.sneaker__color.active {
+  border: 2px solid var(--white-color);
+  box-shadow: 0 0 2px black;
+}
 /*=============== MEDIA QUERIES ===============*/
 /* For small devices */
 /* Remove if you choose, the minimalist design */
