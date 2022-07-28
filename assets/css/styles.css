@@ -9,9 +9,9 @@
 
   --first-color: #a29596;
   --primary: #a29596;
-  --black-color: #33303d;
-  --white-color: #111111;
-  --body-color: #fff;
+  --second-color: #33303d;
+  --black-color: #111111;
+  --white-color: #fff;
 
   /*========== Font and typography ==========*/
   --body-font: "Roboto", sans-serif;
@@ -32,8 +32,10 @@
 /* Responsive typography */
 @media screen and (min-width: 968px) {
   :root {
-    --h1-font-size: ;
-    --normal-font-size: ;
+    --biggest-font-size: 3.25rem;
+    --big-font-size: 2.25rem;
+    --normal-font-size: 1rem;
+    --smaller-font-size: 0.813rem;
   }
 }
 
@@ -46,6 +48,24 @@
   padding: 0;
 }
 
+body {
+  font-family: var(--body-font);
+  background-color: var(--white-color);
+  color: var(--black-color);
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 /*=============== REUSABLE CSS CLASSES ===============*/
 
 /*=============== LAYOUT ===============*/
