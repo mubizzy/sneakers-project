@@ -186,6 +186,14 @@ a {
   border: 2px solid var(--white-color);
   box-shadow: 0 0 2px black;
 }
+
+.sneaker__colors-one {
+  background-color: var(--first-color);
+}
+
+.sneaker__colors-two {
+  background-color: var(--black-color);
+}
 /*=============== MEDIA QUERIES ===============*/
 /* For small devices */
 /* Remove if you choose, the minimalist design */
