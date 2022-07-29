@@ -37,6 +37,7 @@ function changeColor() {
 }
 
 colors.forEach((c) => c.addEventListener("click", changeColor));
+
 // sizes.forEach((el) => {
 //   el.addEventListener("click", (e) => {
 //     e.currentTarget.classList.add("active");
