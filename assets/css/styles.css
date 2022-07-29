@@ -60,6 +60,10 @@ p {
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -69,8 +73,6 @@ ul {
 a {
   text-decoration: none;
 }
-/*=====
-========== REUSABLE CSS CLASSES ===============*/
 
 /*=============== LAYOUT ===============*/
 .grid {
@@ -108,14 +110,12 @@ a {
     z-index: var(--z-fixed);
     transition: 0.3s;
   }
-
-  .nav__list {
-    display: flex;
-    flex-direction: column;
-    row-gap: 2rem;
-  }
 }
-
+.nav__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
 .nav__item {
   font-weight: var(--font-bold);
 }
@@ -299,7 +299,22 @@ a {
 }
 /*=============== MEDIA QUERIES ===============*/
 /* For small devices */
+@media screen and (max-width: 320px) {
+  .home {
+    row-gap: 1.5rem;
+  }
 
+  .sneaker__figure {
+    width: 210px;
+    height: 210px;
+  }
+  .sneaker img {
+    width: 230px;
+  }
+  .sneaker__colors {
+    right: 1%;
+  }
+}
 /* For medium devices */
 
 /* For large devices */
