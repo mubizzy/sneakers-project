@@ -30,7 +30,7 @@ function changeColor() {
   colors.forEach((c) => c.classList.remove("active"));
   this.classList.add("active");
 
-  // document.documentElement.style.setProperty("--primary", primary);
+  document.documentElement.style.setProperty("--primary", primary);
 
   sneaker.forEach((s) => s.classList.remove("shows"));
   sneakerColor.classList.add("shows");
