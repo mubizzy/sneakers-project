@@ -314,6 +314,11 @@ a {
   .sneaker__colors {
     right: 1%;
   }
+  .price__title {
+    font-size: var(--normal-font-size);
+  }
+  .price__button {
+    padding: 1.25rem 2rem;
 }
 /* For medium devices */
 
