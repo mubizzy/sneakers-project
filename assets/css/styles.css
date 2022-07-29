@@ -266,6 +266,16 @@ a {
 /*=====Price======*/
 .price {
   position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem 0;
+  background-color: var(--white-color);
+  border-radius: 1.5rem 1.5rem 0 0;
+  box-shadow: 0px 0px 20px rgba(17, 17, 17, 0.25);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 /*=============== MEDIA QUERIES ===============*/
 /* For small devices */
