@@ -135,9 +135,9 @@ a {
 /*=======HOME========== */
 .home {
   height: 100vh;
-  /* display: grid; */
+  /* display: grid;
   row-gap: 3.5rem;
-  grid-template-columns: repeat(2, max-content);
+  grid-template-columns: repeat(2, max-content); */
   overflow: hidden;
 }
 
@@ -319,7 +319,29 @@ a {
   }
   .price__button {
     padding: 1.25rem 2rem;
+  }
 }
 /* For medium devices */
+@media screen and (min-width: 480px) {
+  .data__description {
+    width: 350px;
+  }
+}
 
+@media screen and (min-width: 768px) {
+  .home {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    align-content: center;
+    justify-content: center;
+    column-gap: 6rem;
+    row-gap: 0;
+  }
+  .sneaker {
+    margin-top: 0;
+  }
+  .sneaker__colors {
+    right: -10%;
+  }
+}
 /* For large devices */
