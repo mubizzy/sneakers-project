@@ -14,3 +14,8 @@ showMenu("nav-toggle", "nav-menu");
 const sizes = document.querySelector(".size__tallas");
 const colors = document.querySelector(".sneaker__color");
 const sneaker = document.querySelector(".sneaker__img");
+
+function changeSize() {
+  sizes.forEach((size) => size.classList.remove("active"));
+  this.classList.add("active");
+}
