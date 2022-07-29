@@ -11,13 +11,25 @@ const showMenu = (toggleId, navId) => {
 };
 showMenu("nav-toggle", "nav-menu");
 /*========CAMBIO COLORS==========*/
-const sizes = document.querySelector(".size__tallas");
-const colors = document.querySelector(".sneaker__color");
-const sneaker = document.querySelector(".sneaker__img");
+const sizes = document.querySelectorAll(".size__tallas");
+const colors = document.querySelectorAll(".sneaker__color");
+const sneaker = document.querySelectorAll(".sneaker__img");
 
-function changeSize() {
-  sizes.forEach((size) => size.classList.remove("active"));
-  this.classList.add("active");
-}
+// function changeSize() {
+//   sizes.forEach((size) => size.classList.remove("active"));
+//   this.classList.add("active");
+// }
 
-sizes.forEach((size) => size.addEventListener("click", changeSize));
+// sizes.forEach((e) => e.addEventListener("click", changeSize));
+
+// const changeSize = () => {
+//   if(sizes.forEach((size) => size.classList.remove("active")));
+//   this.classList.add("active"));
+// };
+// sizes.forEach((e) => e.addEventListener("click", changeSize));
+
+sizes.forEach((el) => {
+  el.addEventListener("click", (e) => {
+    e.currentTarget.classList.add("active");
+  });
+});
