@@ -10,4 +10,7 @@ const showMenu = (toggleId, navId) => {
   }
 };
 showMenu("nav-toggle", "nav-menu");
-/*=============== CHANGE BACKGROUND HEADER ===============*/
+/*========CAMBIO COLORS==========*/
+const sizes = document.querySelector(".size__tallas");
+const colors = document.querySelector(".sneaker__color");
+const sneaker = document.querySelector(".sneaker__img");
