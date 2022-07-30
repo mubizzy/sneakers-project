@@ -410,6 +410,14 @@ a {
     height: 34px;
     line-height: 35px;
   }
+  .actions {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .quantity__content {
+    width: 200%;
+  }
 }
 
 @media screen and (min-width: 1200px) {
