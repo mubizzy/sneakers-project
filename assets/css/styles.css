@@ -404,4 +404,9 @@ a {
   .data__title {
     margin-bottom: 1rem;
   }
+  .size__tallas {
+    width: 34px;
+    height: 34px;
+    line-height: 35px;
+  }
 }
