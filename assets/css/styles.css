@@ -395,4 +395,7 @@ a {
   .info {
     align-self: center;
   }
+  .data {
+    margin-bottom: 2.5rem;
+  }
 }
