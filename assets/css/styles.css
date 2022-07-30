@@ -389,4 +389,7 @@ a {
     right: initial;
     bottom: -3rem;
   }
+  .sneaker__colors span {
+    display: inline-block;
+  }
 }
