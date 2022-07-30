@@ -410,3 +410,10 @@ a {
     line-height: 35px;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .grid {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
