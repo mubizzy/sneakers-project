@@ -401,4 +401,7 @@ a {
   .data__subtitle {
     font-size: 1.5rem;
   }
+  .data__title {
+    margin-bottom: 1rem;
+  }
 }
