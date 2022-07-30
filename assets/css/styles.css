@@ -381,9 +381,12 @@ a {
     width: 430px;
     height: 430px;
   }
-
   .sneaker__img {
     width: 550px;
     top: 13%;
+  }
+  .sneaker__colors {
+    right: initial;
+    bottom: -3rem;
   }
 }
