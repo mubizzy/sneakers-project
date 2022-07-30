@@ -377,4 +377,13 @@ a {
   .sneaker {
     margin: 0;
   }
+  .sneaker__figure {
+    width: 430px;
+    height: 430px;
+  }
+
+  .sneaker__img {
+    width: 550px;
+    top: 13%;
+  }
 }
