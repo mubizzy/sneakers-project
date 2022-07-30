@@ -374,4 +374,7 @@ a {
   .nav__toggle {
     display: none;
   }
+  .sneaker {
+    margin: 0;
+  }
 }
